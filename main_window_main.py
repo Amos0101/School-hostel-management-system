@@ -117,7 +117,7 @@ class main(Ui_MainWindow , QMainWindow):
             QMessageBox.information(self, "Success", f"Student '{name}' has been registered successfully!")
             self.load_student_table()
             self.reset_form()
-            self.dashboard()
+            #self.dashboard()
         except mysql.connector.Error as e:
             QMessageBox.critical(self, "Database Error", f"Error saving data: {e}")
 
@@ -278,7 +278,7 @@ class main(Ui_MainWindow , QMainWindow):
 
 
 
-app = QApplication(sys.argv)
+'''app = QApplication(sys.argv)
 mainWindow = main()
 mainWindow.show()
-sys.exit(app.exec())
+sys.exit(app.exec())'''

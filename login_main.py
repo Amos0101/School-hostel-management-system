@@ -136,7 +136,7 @@ class windowMain(Ui_MainWindow , QMainWindow):
         self.windo.show()
         self.hide()
 
-app = QApplication(sys.argv)
+'''app = QApplication(sys.argv)
 window = windowMain()
 window.show()
-app.exec()
+app.exec()'''
